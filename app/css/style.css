@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    font-family: "Quicksand";
+}
+.home-header {
+    background-color: rgb(245, 252, 253);
+    width: 100%;
+    max-height: 923px;
+    overflow: hidden;
+    background-image: url(../img/Shape-header.png);
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: 30% 50%;
+}
+.header-nav-bar{
+ padding-left: 139px;
+ padding-right: 135px;
+ display: flex;
+ justify-content: space-between;
+}
+.logo {
+    padding: 34px 24px;
+    font-size: 36px;
+    line-height: 0.667;
+    color: rgb(254, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #0063dd;
+}
+
+.nav-button {
+    margin-top: 34px;
+    font-size: 16px;
+    color: #929292;
+    text-transform: uppercase;
+    line-height: 1.688;
+    border: none;
+    background-color: transparent;
+}
+.nav-button.active {
+    color: #0f7bff;
+}
+.sign-up {  
+    margin-left: 55px;  
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    background-color: #0063dd;
+}
+.sign-text{
+    padding: 52px 21px;
+}
+.header-elements{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header-text{            
+    max-width: 550px;
+    text-align: center;
+}
+.header-heading{
+    font-size: 36px;
+    line-height: 0.667;
+    margin-bottom: 32px;
+}
+.heading-info{
+    font-size: 16px;
+    line-height: 1.688;
+    color: #999999;
+}
+.button-elements{
+    margin-top: 40px;
+}
+.btn-elem{
+    margin-right: 30px;
+    border: 2px solid #0f7bff;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(15, 123, 255);
+    text-align: center;
+    width: 160px;
+    height: 50px;
+    box-shadow: none;
+}
+.load {
+    border: none;
+    background-color: #0f7bff;
+    color:#cfe5ff;
+}
+.header-device {
+    max-width: 810px;
+    max-height: 535px;
+    margin-top: 33px;
+    margin: 0 auto;
+}
+.devices {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.features {
+    background-color: rgb(245, 252, 253);
+    max-height: 635px;
+}
+.scroll-btn{
+    display: flex;
+    justify-content: center;
+}
+.scroll-down {
+    margin-top: -34px;
+}
+.features-menu {
+    padding-top: 132px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 180px;
+}
+.feature {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 25px 0px rgba(240, 240, 240, 0.004);
+    width: 360px;
+    max-height: 300px;
+    margin-left: 30px;
+    text-align: center;         
+}
+.feature.shift {
+    margin-top: 50px;
+}
+.feature-img {
+    padding-top: 40px;
+}
+.feature-title-text {
+    padding: 25px 30px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+.feature-paragraph-text {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+    padding-bottom: 40px; 
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img-about{
+    max-width: 605px;
+    max-height: 615px;
+}
+.info-about {
+    max-height: 225px;
+    max-width: 555px;
+    margin: 97px;
+}
+.title-about {
+    font-size: 32px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.125;
+    text-align: left;
+    margin-bottom: 34px;
+}
+.text-about {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.read-more-about {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(15, 123, 255);
+    line-height: 1.688;
+    text-align: left;
+}
+.read-more-pic {
+    margin-left: 10px;
+}
+.how-it-works {
+    background-color: rgb(245, 252, 253);
+    max-height: 650px;
+}
+.how-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;    
+    text-align: center;
+}
+.how-it-works-title {
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.125;
+    z-index: 1;
+}
+.how-it-works-title::after {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    border-radius: 25px;
+    background-color: rgb(237, 245, 255);
+    width: 70px;
+    height: 30px;
+    transform: rotate(130deg);
+    margin-left: 85px;
+    margin-top: -26px;
+}
+.how-it-works-title::before {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    border-radius: 25px;
+    background-color: rgb(237, 245, 255);
+    width: 70px;
+    height: 30px;
+    transform: rotate(130deg);
+    margin-left: 120px;
+    margin-top: 13px;
+}
+.how-it-works-text {
+    max-width: 750px;
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+}
+.points {    
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    position: relative;    
+}
+.points::after{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    border-bottom: 1px solid #dfedff;
+    width: 850px;
+    margin-top: -130px;
+}
+.point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
+}
+.point-icon {
+    max-height: 100px;
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+.point-title {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    margin-bottom: 25px;    
+}
+.point-description {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+    max-width: 357px;
+    padding-bottom: 128px;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 835px;    
+    margin-top: 133px;
+}
+.prices-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 357px;
+    margin-right: 30px;
+}
+.prices-info-title {
+    margin-bottom: 35px;    
+}
+.info-title {
+    font-size: 32px;
+    color: rgb(51, 51, 51);
+    line-height: 1.125;
+}
+.prices-info-text {
+    margin-bottom: 38px;
+}
+.info-text {
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+}
+.prices-btn {
+    width: 165px;
+    height: 50px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: rgb(15, 123, 255);
+    border-style: solid;
+    font-size: 16px;
+    color: rgb(15, 123, 255);
+    font-weight: bold;
+    line-height: 1.688;
+    text-align: center;
+}
+.prices-btn.left {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.prices-btn.right {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: -6px;
+}
+.tariffs {
+    display: flex;
+    margin-bottom: 130px;
+}
+.tariff {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    max-height: 577px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 68px 0px rgba(165, 165, 165, 0.25);
+}
+.tariff-logo{
+    max-width: 100px;
+    max-height: 100px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.tariff-naming {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+}
+.tariff-naming::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: rgb(224, 224, 224);
+    width: 165px;
+    height: 1px;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.opt-list {
+    margin-top: 60px;
+    list-style-type: none;
+    text-align: center; 
+    padding-left: 0;
+    margin-left: 0; 
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+    line-height: 1.688;  
+}
+.price-val {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(15, 123, 255);
+    line-height: 2.25;
+}
+.tariff-try {
+    height: 50px;
+    width: 165px;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: rgb(15, 123, 255);
+    border-style: solid;
+    font-size: 16px;
+    color: rgb(15, 123, 255);
+    font-weight: bold;
+    line-height: 1.688;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+.feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(245, 252, 253);
+    
+}
+.feedback-image {
+    max-width: 40%;
+    max-height: 40%;
+}
+.feedback-cards {
+    margin-left: 128px;
+    text-align: left;
+}
+.feed-title {
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    line-height: 1.125;
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex; 
+    overflow: auto;
+    width: 59%;
+}
+.person {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 25px 0px rgba(165, 165, 165, 0.1);    
+    margin-right: 30px;
+    padding: 40px 30px;
+    min-width: 280px;
+    height: 100%;      
+}
+.card-person-name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+.card-twit {
+    object-fit: contain;
+}
+.person-job{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.929;
+    padding-bottom: 20px;
+}
+.feedback-text {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(146, 146, 146);
+    line-height: 1.688;
+}
